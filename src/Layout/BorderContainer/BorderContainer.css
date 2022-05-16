@@ -1,0 +1,9 @@
+.border-container {
+    border: 1px solid black;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 45%
+}

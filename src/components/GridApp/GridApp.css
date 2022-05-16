@@ -1,0 +1,13 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    border: 1px solid black;
+}
+
+.control-container {
+    border: 1px solid black;
+    padding: 15px;
+}

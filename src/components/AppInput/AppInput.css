@@ -1,0 +1,9 @@
+.app-input {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .app-input {
+        width: 50%;
+    }
+}
