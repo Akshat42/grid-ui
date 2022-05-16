@@ -1,3 +1,4 @@
+// Custom HTML Button element
 function AppButton({ type, text, handleClick }) {
     function handleGenericClick(event) {
         handleClick(event.target.value);

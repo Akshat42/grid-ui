@@ -1,5 +1,6 @@
 import './AppInput.css';
 
+// Custom HTML input element
 function AppInput({ type, placeholder, handleOnChange, value }) {
     function handleGenericOnChange(event) {
         handleOnChange(event);

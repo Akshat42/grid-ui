@@ -49,6 +49,7 @@ function GridRow({ text }) {
         </div>
     );
 
+    // handles click event for Bold, Italic & Underline
     function handleClick(value) {
         switch (value) {
             case 'Bold':
@@ -65,6 +66,7 @@ function GridRow({ text }) {
         }
     }
 
+    // handles change event for font-size & color properties
     function handleOnChange(event) {
         switch (event.target.name) {
             case 'FontSize':

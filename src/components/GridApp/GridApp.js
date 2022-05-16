@@ -1,4 +1,5 @@
 import './GridApp.css';
+// contains all the sentences in the view
 import textData from '../../data.json';
 import GridRow from '../GirdRow/GridRow';
 
