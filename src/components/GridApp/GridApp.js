@@ -7,7 +7,7 @@ function GridApp() {
     return (
         <article className="grid-container">
             {textData.texts.map((text) => {
-                return <GridRow text={text} />;
+                return <GridRow key={text} text={text} />;
             })}
         </article>
     );
